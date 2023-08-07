@@ -7,7 +7,7 @@ sys.path.append(os.path.dirname(SCRIPT_DIR))
 path_root = Path(__file__).parents[2]
 sys.path.append(str(path_root))
 
-from src.utils.yf_extractor import YahooExtractor
+from utils.yf_extractor import YahooExtractor
 # from utils.yf_extractor import YahooExtractor
 import streamlit as st
 import pandas as pd

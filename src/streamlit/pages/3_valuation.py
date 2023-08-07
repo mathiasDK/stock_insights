@@ -9,8 +9,8 @@ sys.path.append(str(path_root))
 
 
 import streamlit as st
-from src.utils.simulation import MonteCarloSimulation
-from src.utils.styling import PrimaryColors
+from utils.simulation import MonteCarloSimulation
+from utils.styling import PrimaryColors
 import plotly.graph_objects as go
 import plotly.express as px
 import numpy as np

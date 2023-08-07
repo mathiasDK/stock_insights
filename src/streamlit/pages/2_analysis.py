@@ -8,8 +8,8 @@ path_root = Path(__file__).parents[2]
 sys.path.append(str(path_root))
 
 import streamlit as st
-from src.utils.plotter import Plotter
-from src.utils.yf_extractor import YahooExtractor
+from utils.plotter import Plotter
+from utils.yf_extractor import YahooExtractor
 
 
 def main():
